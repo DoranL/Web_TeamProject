@@ -6,7 +6,7 @@ body{
 .container{
     width: 1920px;
     height: 960px;
-    background: url(Mainpage_img/mainpage2.jpg) fixed;
+    background: url(img/mainpage2.jpg) fixed;
     background-position: center;
     background-size: cover;
     margin-top: -31px;
@@ -38,24 +38,27 @@ a{
     text-decoration: none; /*링크 줄 없애기 */
 }
 
-h1{
+#MainText{
     font-size: 6em;
-    width: 258px;
+    width: 490px;
     font-family: sans-serif;
     position: absolute;
-    top: 80px; 
+    top: 180px; 
     left:300px;
     animation: slideIn 2s ease-out;
+    color: black;
 }
 
-button{
+#Enter_button{
     font-size: 30px;
+    width: 150px;
     background-color: rgb(96, 49, 184);
-    
-    margin-left: 850px;
+    /* margin: 19% 46%; */
     border-radius: 30%;
     border-color: #ffff;
+    margin-bottom: 20%;
 }
+
 @keyframes slideIn{
     from{
         left: -100px;
