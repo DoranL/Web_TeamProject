@@ -2,8 +2,17 @@ header {
     margin : 25px auto;
     padding: 0px 0px 15px 15px;
 }
+
 .logo {
     height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    text-decoration: none;
+    color: #292930;
+    font-weight: 900;
+    font-family: Arial Rounded MT;
+    text-shadow: 3px 3px 4px gray;
 }
 
 .top {
@@ -119,6 +128,7 @@ header {
     text-align: center;
     list-style-type: none;
     margin: 0px auto;
+    padding-inline-start: 0px;
 }
 
 .sns-list li {

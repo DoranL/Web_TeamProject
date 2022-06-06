@@ -1,0 +1,167 @@
+.hd {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #6646ff;
+    height: 80px;
+    font-size: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.logo {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    left: 40px;
+    top: 31px;
+    z-index: 10;
+}
+
+.home_menu {
+    height: 100%;
+    float: right;
+    padding-right: 25px;
+}
+
+.gnb {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    list-style: none;
+    position: relative;
+}
+
+.gnb li {
+    display: inline-block;
+    text-align: center;
+    top:15px;
+    position:relative;
+}
+.gnb li a {
+    height: 100%;
+    display: block;
+    padding: 14px;
+    font-size: 17px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-wrapper{
+    height: 100%;
+    position: relative;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.content {
+    background: linear-gradient(180deg, #6646FF 0%, #6A48FF 20.61%, #764DFF 40.71%, #8955FF 60.62%, #A561FF 80.31%, #C870FF 99.84%, #C870FF 100%);
+    height: calc(100% - 155px);
+    position: relative;
+}
+
+body {
+    background-color: #6646ff;
+    height:100%;
+    margin: 0;
+}
+body::after {
+    content: "";
+    background-color: #ba68ed;
+    position: fixed;
+    height: 100vh;
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wrapper {
+    position: relative;
+    min-width: 946px;
+    min-height: 1055px;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+
+
+
+
+.ft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ba68ed;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+.inner {
+    padding: 35px 36px 70px;
+    height: 155px;
+    box-sizing: border-box;
+}
+
+.ft_nav {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ft_nav li {
+    display: inline-block;
+    text-align: -webkit-match-parent;
+    vertical-align: middle;
+}
+
+.ft_nav li ~ li::before {
+    content: '';
+    display: inline-block;
+    margin: 0 12px;
+    width: 1px;
+    height: 7px;
+    background-color: #e9e9ef;
+}
+
+.ft_nav li a {
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.ft_sns {
+    position: absolute;
+    top: 34px;
+    right: 44px;
+    font-size: 0;
+    white-space: nowrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ft_sns li {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: -webkit-match-parent;
+}
+
+.fbicon {
+    width: 18px;
+    height: 18px;
+    background: url(../img/fb.png) no-repeat 0 0;
+    background-size: 18px 18px;
+}
