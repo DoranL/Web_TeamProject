@@ -38,6 +38,30 @@ header {
     color: gray;
 }
 
+ul{
+    list-style: none;
+    padding-left: 0px; 
+}
+
+.navbar{
+    width: 1920px;
+    height: 20px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin: -6px 660px;
+    color: #000000;
+}
+
+nav{
+    flex:0;
+    text-align: right;
+    margin-top: -68px;
+}
+nav ul li{
+    margin-left: 60px;
+}
+
 #logborder{
     border-bottom: 2px solid black;
 }
