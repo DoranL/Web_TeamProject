@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+    height: 2000px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+}
+
+h2{
+    font-size: 30px;
+    text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+}
+
+h3{
+    font-size: 50px;
+    
+}
+.s1{
+    background: url(img/mainpage5.png);
+    background-size: cover;  
+    justify-content: flex-start;
+}
+
+.s2{    
+    background: url(img/Mainpage11.png);
+    background-size: cover;
+}
+
+.section_service{
+    background: url(img/scrollpagetest1.png) fixed;
+    color: black;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    height: 600px;
+    top: 20px;
+    left: 400px;
+}
+
+/*서비스페이지 바 구현*/
+
+.top {
+    width : 400px;
+    height: 54px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    list-style-type: none;
+    margin: 0px auto 20px;
+}
+
+.top li{
+    width: 50%;
+    height: 54px;
+    font-size: 17px;
+    line-height: 54px;
+    text-align: center;
+    color: #99999c;
+    border-bottom: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.top li a{
+    text-decoration: none;
+    color: gray;
+}
+
+#logborder{
+    border-bottom: 2px solid black;
+}
+/*오른쪽 페이지 네이비게이션 색상 지정*/
+/* span{
+    background: white !important;
+} */
+
+span a{
+    
+    color: rgb(255, 255, 255) !important;
+}
+
+
+/************************************/
+ul{
+    list-style: none;
+    padding-left: 0px; 
+}
+
+.navbar{
+    width: 1920px;
+    height: 20px;
+    font-size: 17spx;
+    display: flex;
+    align-items: center;
+    margin: 25px 660px;
+}
+
+.navbar_service{
+    width: 1920px;
+    height: 20px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin: 106px 660px;
+}
+nav{
+    flex:0;
+    text-align: right;
+}
+nav ul li{
+    margin-left: 60px;
+    font-size:20px
+}
+
+.search-bar{
+    width: 328px;
+    height: 35px;
+    background: rgba(255,255,255,0.2);
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-bar input{
+    background-color: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 11px 20px;
+    font-size: 18px;
+    color: #3d3d3d;
+}
+
+
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    right: 20px;
+    background: #73a0c5;
+    cursor: pointer;
+}
+
+.enter_button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+a{
+    color: white;
+    text-decoration: none; /*링크 줄 없애기 */
+}
+
+.navbar_service a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/* .slider{
+    position:absolute;
+    right: 200px;top: 230px;
+    overflow: hidden;
+    z-index:0;
+}
+
+.slide{
+    position: absolute;
+    transition: transform 1s ease-in-out;
+}
+
+
+#slide-1{
+    background: var(--slide-1-bg);
+    left: 0;
+}
+
+#slide-2{
+    background: var(--slide-2-bg);
+    left: 100%;
+}
+
+#slide-3{
+    background: var(--slide-3-bg);
+    left: 200%;
+} */
+/* 
+#slide-radio-1:checked ~.slide {transform: translateX(0);}
+#slide-radio-2:checked ~.slide {transform: translateX(-100%);}
+#slide-radio-3:checked ~.slide {transform: translateX(-200%);} */
+
+#MainText{
+    font-size: 6em;
+    width: 56px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 180px; 
+    left:300px;
+    animation: slideIn 3s ease-out;
+    color: rgb(255, 255, 255);
+}
+
+#nextPageText{
+    font-size: 6em;
+    width: 800px;
+    font-family: 'Arial',sans-serif;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    animation: slideIn 3s ease-out;
+}
+
+#ServiceText{
+    float: left;
+    color: #000000;
+    font-size: 30px;
+    margin-left: 10px;
+    animation: slideIn 3s ease-out; 
+}
+::placeholder{
+    color: rgba(255, 255, 255);
+    opacity: 0.5;
+}
+
+@keyframes slideIn{
+    from{
+        left: -100px;
+        opacity: 0;
+    }
+    to{
+        left: 300px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from{
+        left: 300px;
+        opacity: 1;
+    }
+    to{
+        left: -100px;
+        opacity: 0;
+    }
+}
+
+.slider{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    100%{
+        transform: perspective(1000px)  rotateY(360deg);
+    }
+}
+
+.slider span{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg))translateZ(350px);
+}
+
+/*이미지 테두리 작업*/
+.slider span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: 2s;
+}
+
+.slider span:hover img{
+    transform: translateY(-50px) scale(1.2);
+}
