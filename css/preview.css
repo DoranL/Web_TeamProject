@@ -31,7 +31,7 @@ a {
     display: none;
 }
 
-.hov-anim-box:hover .goToEnterList {
+.hov-anim-box:hover .goToFillIn {
     display: inline;
 }
 
@@ -65,7 +65,7 @@ a {
     right: 400px;
 }
 
-.goToEnterList {
+.goToFillIn {
     display: none;
     position: inherit;
     top: 120px;
@@ -78,7 +78,7 @@ a {
     border-color: black;
 }
 
-.goToEnterList:hover {
+.goToFillIn:hover {
     cursor: pointer;
     background-color:rgb(225, 248, 255);
 }
