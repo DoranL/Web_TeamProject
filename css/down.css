@@ -69,6 +69,80 @@ a {
     position: relative;
 }
 
+.content_inner_wrap {
+    position: absolute;
+    width: 924px;
+    top: 0;
+    height: 569px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    transform: translateX(4%);
+    -webkit-transform: translateX(4%);
+    -ms-transform: translateX(4%);
+}
+
+.text_area {
+    display: inline-block;
+    max-width: 545px;
+    margin-left: 50px;
+}
+
+.main_tit {
+    display: inline-block;
+    color: #fff;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.main_tx {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.video_area {
+    float: left;
+    width: 326px;
+    height: 568px;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+    background: url(../img/img_phone_pc.png) no-repeat 0 0;
+    background-size: 326px 568px;
+}
+
+.download_area {
+    float: left;
+    max-width: 545px;
+    margin-left: 50px;
+}
+
+.download_area a {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    height: 50px;
+    background-size: 150px 50px;
+}
+.appstore {
+    background: url(../img/applestore_btn.png) no-repeat 0 0;
+}
+
+.googleplay {
+    margin-left: 16px;
+    background: url(../img/googleplay_btn.png) no-repeat 0 0;
+}
+
+
 body {
     background-color: #6646ff;
     height:100%;
@@ -168,4 +242,12 @@ body::after {
     height: 18px;
     background: url(../img/fb.png) no-repeat 0 0;
     background-size: 18px 18px;
+}
+
+.copy {
+    margin-top: 14px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,AppleSDGothicNeo, Helvetica,'맑은고딕', 'Malgun Gothic', Dotum, sans-serif !important;
 }

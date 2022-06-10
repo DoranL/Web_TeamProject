@@ -84,6 +84,25 @@ a {
     background-color:rgb(225, 248, 255);
 }
 
+/* 오른쪽 상단 입장목록 */
+#EntranceList {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 550px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.text {
+    color: white;
+    font-size: 26px;
+    margin: 15px 0 0 30px;
+    line-height: 40px;
+}
+
+
 /* 팝업창 */
 
 form {
