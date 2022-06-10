@@ -2,8 +2,67 @@ body {
     margin: 0;
 }
 
-aside ul {
+/* 로고 */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+}
+
+/* 내비게이션 바 */
+.navbar {
+    width: 1920px;
+    height: 20px;
+    font-size: 17spx;
+    display: flex;
+    align-items: center;
+    margin: 25px 660px;
+}
+
+.navbar_service {
+    width: 1920px;
+    height: 20px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin: 106px 660px;
+}
+
+nav {
+    flex: 0;
+    text-align: right;
+}
+
+nav ul li {
+    margin-left: 60px;
+    font-size: 20px
+}
+
+a {
+    text-decoration: none;
+    /*링크 줄 없애기 */
+}
+
+a:visited {
+    color: #000;
+}
+
+a:link {
+    color: #000;
+}
+
+a:active {
+    color: #000;
+}
+
+ul {
     list-style: none;
+}
+
+
+
+aside ul {
     float: left;
     padding-left: 0;
 }
@@ -22,13 +81,6 @@ aside li {
 main {
     width: 1920px;
     height: 900px;
-}
-
-header,
-footer {
-    width: 100%;
-    height: 100px;
-    background-color: aquamarine;
 }
 
 iframe {

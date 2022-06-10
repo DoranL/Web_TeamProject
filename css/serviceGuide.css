@@ -20,18 +20,15 @@ h3{
 }
 
 .s1{
-    background: url(img/mainpage5.png);
     background-size: cover;  
     justify-content: flex-start;
 }
 
 .s2{    
-    background: url(img/Mainpage11.png);
     background-size: cover;
 }
 
 .section_service{
-    background: url(img/scrollpagetest1.png) fixed;
     color: black;
     font-size: 50px;
     font-family:'Times New Roman', Times, serif;
@@ -94,12 +91,12 @@ ul{
 }
 
 .navbar{
-    width: 1920px;
+    width: 700px;
     height: 20px;
     font-size: 17spx;
     display: flex;
     align-items: center;
-    margin: 25px 660px;
+    margin: 0px 660px;
 }
 
 .navbar_service{
@@ -112,35 +109,12 @@ ul{
 }
 nav{
     flex:0;
-    text-align: right;
 }
 nav ul li{
     margin-left: 60px;
-    font-size:20px
+    font-size:20px;
+    display: inline-block;
 }
-
-.search-bar{
-    width: 328px;
-    height: 35px;
-    background: rgba(255,255,255,0.2);
-    margin-right: 10px;
-    align-items: center;
-    border-radius: 60px;
-    padding: 10px 20px;
-}
-
-.search-bar input{
-    background-color: transparent;
-    flex: 1;
-    border: 0;
-    outline: none;
-    padding: 11px 35px;
-    padding: 11px 20px;
-    font-size: 18px;
-    color: #3d3d3d;
-}
-
-
 
 .search-bar button{
     border: 0;
@@ -157,8 +131,17 @@ nav ul li{
     transform: scale(1.2);
 }
 a{
-    color: white;
     text-decoration: none; /*링크 줄 없애기 */
+}
+a:visited{
+    color:#000;
+}
+a:link{
+    color:#000;
+}
+
+a:active{
+    color:#000;
 }
 
 .navbar_service a{
@@ -166,7 +149,18 @@ a{
     text-decoration: none;
 }
 
+.login_button{
+    font-size: 20px;
+    border: 3px solid;
+    border-color: #000;
+    background: none;
+    border-radius: 2px;
+}
 
+button {
+    width: 100px;
+    height: 60px;
+}
 /* .slider{
     position:absolute;
     right: 200px;top: 230px;
