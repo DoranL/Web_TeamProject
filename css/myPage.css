@@ -2,6 +2,34 @@ body {
     margin: 0;
 }
 
+.navbar {
+    width: 1920px;
+    height: 20px;
+    font-size: 17spx;
+    display: flex;
+    align-items: center;
+    margin: 25px 660px;
+}
+
+.navbar_service {
+    width: 1920px;
+    height: 20px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin: 106px 660px;
+}
+
+nav {
+    flex: 0;
+    text-align: right;
+}
+
+nav ul li {
+    margin-left: 60px;
+    font-size: 20px
+}
+
 aside ul {
     list-style: none;
     float: left;

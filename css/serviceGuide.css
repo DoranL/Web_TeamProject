@@ -20,18 +20,15 @@ h3{
 }
 
 .s1{
-    background: url(img/mainpage5.png);
     background-size: cover;  
     justify-content: flex-start;
 }
 
 .s2{    
-    background: url(img/Mainpage11.png);
     background-size: cover;
 }
 
 .section_service{
-    background: url(img/scrollpagetest1.png) fixed;
     color: black;
     font-size: 50px;
     font-family:'Times New Roman', Times, serif;
@@ -152,17 +149,18 @@ a:active{
     text-decoration: none;
 }
 
-#login_button{
-    width: 200px; 
-    margin-right: 10px; 
-    position:absolute; 
-    top: 50px; 
-    right: 80px; 
+.login_button{
     font-size: 20px;
-    border: 1px;
-    border-color: #fff;
+    border: 3px solid;
+    border-color: #000;
+    background: none;
+    border-radius: 2px;
 }
 
+button {
+    width: 100px;
+    height: 60px;
+}
 /* .slider{
     position:absolute;
     right: 200px;top: 230px;
