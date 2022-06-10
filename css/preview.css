@@ -1,3 +1,4 @@
+/* 로고 */
 h1 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -7,17 +8,73 @@ h1 {
 
 a {
     text-decoration: none;
-    /*링크 줄 없애기 */
 }
 
-a:visited {
-    color: #000;
+/* 화살표 */
+.hov-anim-box {
+    position: absolute;
 }
 
-a:link {
-    color: #000;
+.hov-anim-box .animated {
+    display: none;
 }
 
-a:active {
-    color: #000;
+.hov-anim-box:hover .animated {
+    display: inline;
+}
+
+.hov-anim-box:hover .static {
+    display: none;
+}
+
+.hov-anim-box:hover .goToEnterList {
+    display: inline;
+}
+
+#arrow1{
+    top: 260px;
+    left: 760px;
+}
+
+#arrow2 {
+    top: 800px;
+    right: 50px;
+}
+
+#arrow3 {
+    top: 2470px;
+    right: 350px;
+}
+
+#arrow4 {
+    top: 1600px;
+    right: 250px;
+}
+
+#arrow5 {
+    top: 2450px;
+    left: 70px;
+}
+
+#arrow6 {
+    top: 3550px;
+    right: 400px;
+}
+
+.goToEnterList {
+    display: none;
+    position: inherit;
+    top: 120px;
+    left: 190px;
+    width: 130px;
+    height: 60px;
+    font-size: 26px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.goToEnterList:hover {
+    cursor: pointer;
+    background-color:rgb(225, 248, 255);
 }
