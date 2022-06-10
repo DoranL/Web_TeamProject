@@ -15,7 +15,7 @@ hr{
 
 h2{
     font-size: 30px;
-    text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+    
 }
 
 h3{
@@ -271,6 +271,19 @@ a:active{
     transform: rotateY(calc(var(--i)*45deg))translateZ(350px);
 }
 
+.main_button{
+    border-radius: 20px;
+    background:none;
+    border: 3px solid #ffffff;
+}
+
+.main_button2{
+    border-radius: 20px;
+    background-color: #2e458f;
+    border: none;
+    width: 150px;
+    height: 100px;
+}
 
 /*이미지 테두리 작업*/
 .slider span img{
