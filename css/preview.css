@@ -4,7 +4,6 @@ body {
 
 /* 로고 */
 h1 {
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
     text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
@@ -205,4 +204,17 @@ input:focus{
     visibility: visible;
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+/* footer */
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+}
+
+a:active {
+    color: rgb(0, 0, 0);
 }

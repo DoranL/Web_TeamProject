@@ -4,7 +4,6 @@ body {
 
 /* 로고 */
 h1 {
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
     text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
@@ -60,6 +59,28 @@ ul {
     list-style: none;
 }
 
+.navbar a {
+    position: relative;
+    padding: 17px 12px;
+}
+
+
+.navbar li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background: #2c368f;
+    transition: all .5s ease-out;
+}
+
+.navbar li a:hover::after {
+    width: 100%;
+}
+
 
 
 aside ul {
@@ -91,7 +112,7 @@ iframe {
 
 fieldset {
     width: 675px;
-    margin: 60px 80px 0 0;
+    margin: 60px 110px 0 0;
     float: right;
     border-color: steelblue;
 }
