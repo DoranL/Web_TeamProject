@@ -206,3 +206,16 @@ input:focus{
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
+
+/* footer */
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+}
