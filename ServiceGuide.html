@@ -33,49 +33,43 @@
     
    
     <div class="section_service" style="margin-top: 120px;">
-        <h3 id="ServiceText">공부는 재미가 없습니다.<br>메타케어는 공부가 재미있습니다.</h3>
+        <h3 id="ServiceText" style="font-size: 40px;">MetaCare 이용 방법</h3>
     </div>
-    <section> 
-        <script>
-            var index =0; 
-            window.onload = function(){
-                slideShow();
-            }
-    
-            function slideShow(){
-                var i;
-                var x = document.getElementsByClassName('slide1'); //slid1에 대한 참조
-              
-                for(i=0; i<x.length; i++){
-                    x[i].style.display ='none' // 처음부터 전부 display를 none
-                }
-                index++;
-                if(index > x.length){
-                    index =1; //인덱스 초과시 1로 변경
-                }
-    
-                x[index-1].style.display="block" //해당 인덱스는 block
-                setTimeout(slideShow, 2000); //함수를 6초마다 호출
-            }
-        </script>
-        <img src="img/servicepageTest3.png" alt="" width="1920px" height="80px" id="guide1" >
+    <section>
+        <img src="img/servicepageTest3.png" alt="" width="1920px" height="80px" id="guide0" >
         
-        <div style="position: absolute; top:580px">
-            <img src="img/cap1.png" alt="" width="300px" height="300px">
+        <div style="position: absolute; top:478px">
+            <img src="img/cap1.png" alt="" width="300px" height="400px">
         </div>
 
     </section>
 
     <section>
-        <h4 style="text-align: center; font-weight: bold; font-size: 30px;">주요기능</h4>
+        <h4 style="text-align: center; font-weight: bold; font-size: 30px;">다양한컨텐츠</h4>
         <ul class="top" style="margin-left: 40px;">
-            <li id="logborder"><a href="#guide1">영상</a></li>
+            <li id="logborder"><a href="#guide0">사용자가이드</a></li>
+            <li><a href="#guide1">교육영상</a></li>
             <li><a href="#guide2">학습게시판</a></li>
             <li><a href="#guide3">부가기능</a></li>
         </ul>
         
             <div class="section1" style="margin: 0px 0px 71px 40px; text-align: center;">
-                <h4>시연영상</h4>
+                
+            </div>
+        </div>
+    </section>
+    <img src="img/servicepageTest3.png" alt="" width="1920px" height="80px" id="guide1">
+    <section>
+        <h4 style="text-align: center; font-weight: bold; font-size: 30px;">다양한컨텐츠</h4>
+        <ul class="top" style="margin-left: 40px;">
+            <li><a href="#guide0">사용자가이드</a></li>
+            <li id="logborder"><a href="#guide1">교육영상</a></li>
+            <li><a href="#guide2">학습게시판</a></li>
+            <li><a href="#guide3">부가기능</a></li>
+        </ul>
+        
+            <div class="section1" style="margin: 0px 0px 71px 40px; text-align: center;">
+                <h4>창의력을 높이는 놀이들과 코딩교육 그리고 다양한 컨텐츠들을 제공합니다.</h4>
                 <video autoplay controls loop muted poster="aaa" preload="bbb" style="width: 1000px; height:660px">
                     <source src="img/serviceVideo.mp4" type="video/mp4">
                 </video>
@@ -86,7 +80,8 @@
     <section>
         <img src="img/servicepageTest3.png" alt="" width="1920px" height="80px" id="guide2">
         <ul class="top" style="margin-left: 40px;">
-            <li><a href="#guide1">강의모드</a></li>
+            <li><a href="#guide0">사용자가이드</a></li>
+            <li><a href="#guide1">교육영상</a></li>
             <li id="logborder"><a href="#guide2">학습게시판</a></li>
             <li><a href="#guide3">부가기능</a></li>
         </ul>
@@ -100,10 +95,10 @@
     <section>
         <img src="img/servicepageTest3.png" alt="" width="1920px" height="80px" id="guide3">
         <ul class="top" style="margin-left: 40px;">
-            <li><a href="#guide1">강의모드</a></li>
+            <li><a href="#guide0">사용자가이드</a></li>
+            <li><a href="#guide1">교육영상</a></li>
             <li><a href="#guide2">학습게시판</a></li>
-            <li><a href="#gudie3"></a></li>
-            <li id="logborder">부가기능</li>
+            <li id="logborder"><a href="#guide3">부가기능</a></li>
         </ul>
         <div id="guide3" style="text-align: center;">
             <div class="section1" style="margin: 0px 0px 0px 40px;">
