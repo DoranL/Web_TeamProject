@@ -1,18 +1,19 @@
 header {
     margin : 25px auto;
-    padding: 0px 0px 15px 15px;
 }
 
 .logo {
     height: 18px;
     text-align: center;
-    vertical-align: middle;
     font-size: 30px;
     text-decoration: none;
     color: #292930;
     font-weight: 900;
-    font-family: Arial Rounded MT;
-    text-shadow: 3px 3px 4px gray;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+    display: block;
 }
 
 .top {
@@ -45,30 +46,6 @@ header {
 .top li a{
     text-decoration: none;
     color: gray;
-}
-
-ul{
-    list-style: none;
-    padding-left: 0px; 
-}
-
-.navbar{
-    width: 1920px;
-    height: 20px;
-    font-size: 17px;
-    display: flex;
-    align-items: center;
-    margin: -6px 660px;
-    color: #000000;
-}
-
-nav{
-    flex:0;
-    text-align: right;
-    margin-top: -68px;
-}
-nav ul li{
-    margin-left: 60px;
 }
 
 #logborder{
