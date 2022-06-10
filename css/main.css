@@ -9,6 +9,10 @@ h1{
     text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
 }
 
+hr{
+    text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(255, 255, 255), 1px 0 rgb(206, 206, 206), 0 -1px rgb(207, 196, 196);
+}
+
 h2{
     font-size: 30px;
     text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
