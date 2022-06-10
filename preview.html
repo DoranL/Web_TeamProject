@@ -26,32 +26,32 @@
             
         </div>
         <div class="hov-anim-box" id="arrow1">
-            <button class="goToFillIn">입장하기</button>
+            <button class="goToFillIn trigger">입장하기</button>
             <img src="img/Down-Arrow.png" alt="" class="static">
             <img src="img/Down-Arrow.gif" alt="" class="animated">
         </div>
         <div class="hov-anim-box" id="arrow2">
-            <button class="goToFillIn">입장하기</button>
+            <button class="goToFillIn trigger1">입장하기</button>
             <img src="img/Down-Arrow.png" alt="" class="static">
             <img src="img/Down-Arrow.gif" alt="" class="animated">
         </div>
         <div class="hov-anim-box" id="arrow3">
-            <button class="goToFillIn">입장하기</button>
+            <button class="goToFillIn trigger2">입장하기</button>
             <img src="img/Down-Arrow.png" alt="" class="static">
             <img src="img/Down-Arrow.gif" alt="" class="animated">
         </div>
         <div class="hov-anim-box" id="arrow4">
-            <button class="goToFillIn">입장하기</button>
+            <button class="goToFillIn trigger3">입장하기</button>
             <img src="img/Down-Arrow.png" alt="" class="static">
             <img src="img/Down-Arrow.gif" alt="" class="animated">
         </div>
         <div class="hov-anim-box" id="arrow5">
-            <button class="goToFillIn">입장하기</button>
+            <button class="goToFillIn trigger4">입장하기</button>
             <img src="img/Down-Arrow.png" alt="" class="static">
             <img src="img/Down-Arrow.gif" alt="" class="animated">
         </div>
         <div class="hov-anim-box" id="arrow6">
-            <button class="goToFillIn">입장하기</button>
+            <button class="goToFillIn trigger5">입장하기</button>
             <img src="img/Down-Arrow.png" alt="" class="static">
             <img src="img/Down-Arrow.gif" alt="" class="animated">
         </div>
@@ -59,5 +59,56 @@
     <footer>
 
     </footer>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h1 class="title">입장목록</h1>
+            <form>
+                <div style="text-align:left;">예약자이름</div>
+                <input type="text" id="username" required="required">
+                <div style="text-align:left;">비밀번호</div>
+                <input type="password" id="password" required="required">
+                <div style="text-align:left;">대여날짜</div>
+                <input type="date" id="rent_time" required="required">
+                <div style="text-align:left;">입장가능인원</div>
+                <input type="number" min="1" max="10" id="people_number" required="required" placeholder="최대 가능 인원은 10명입니다.">
+                <input type="button" id="cancel" value="취소">
+                <input type="submit" id="submit" value="입장하기">
+            </form>
+        </div>
+    </div>
 </body>
+<script type="text/javascript">
+    var modal = document.querySelector(".modal");
+    var trigger = document.querySelector(".trigger");
+    var trigger1 = document.querySelector(".trigger1");
+    var trigger2 = document.querySelector(".trigger2");
+    var trigger3 = document.querySelector(".trigger3");
+    var trigger4 = document.querySelector(".trigger4");
+    var trigger5 = document.querySelector(".trigger5");
+    var closeButton = document.querySelector(".close-button");
+    var cancelButton = document.querySelector("#cancel");
+
+    //console.log(modal);
+
+    function toggleModal() {
+        modal.classList.toggle("show-modal");
+    }
+
+    function windowOnClick(event) {
+        if (event.target === modal) {
+            toggleModal();
+        }
+    }
+
+    trigger.addEventListener("click", toggleModal);
+    trigger1.addEventListener("click", toggleModal);
+    trigger2.addEventListener("click", toggleModal);
+    trigger3.addEventListener("click", toggleModal);
+    trigger4.addEventListener("click", toggleModal);
+    trigger5.addEventListener("click", toggleModal);
+    closeButton.addEventListener("click", toggleModal);
+    cancel.addEventListener("click", toggleModal);
+    window.addEventListener("click", windowOnClick); 
+</script>
 </html>
