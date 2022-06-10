@@ -2,6 +2,15 @@ body {
     margin: 0;
 }
 
+/* 로고 */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+}
+
+/* 내비게이션 바 */
 .navbar {
     width: 1920px;
     height: 20px;
@@ -30,8 +39,30 @@ nav ul li {
     font-size: 20px
 }
 
-aside ul {
+a {
+    text-decoration: none;
+    /*링크 줄 없애기 */
+}
+
+a:visited {
+    color: #000;
+}
+
+a:link {
+    color: #000;
+}
+
+a:active {
+    color: #000;
+}
+
+ul {
     list-style: none;
+}
+
+
+
+aside ul {
     float: left;
     padding-left: 0;
 }
@@ -50,13 +81,6 @@ aside li {
 main {
     width: 1920px;
     height: 900px;
-}
-
-header,
-footer {
-    width: 100%;
-    height: 100px;
-    background-color: aquamarine;
 }
 
 iframe {

@@ -9,7 +9,7 @@
     <body>
         <!-- header -->
         <div id="header">
-            <a href="#"" id="logo">MeataCare</a>
+            <a href="#"" id="logo">MetaCare</a>
         </div>
 
 
@@ -131,7 +131,7 @@
                 <div>
                     <h3 class="join_title"><label for="phoneNo">휴대전화</label></h3>
                     <span class="box int_mobile">
-                        <input type="tel" id="mobile" class="int" maxlength="16" placeholder="전화번호 입력">
+                        <input type="tel" id="mobile" class="int" maxlength="16" placeholder="전화번호 (-)빼고 입력">
                     </span>
                     <span class="error_next_box"></span>    
                 </div>
@@ -139,10 +139,11 @@
 
                 <!-- JOIN BTN-->
                 <div class="btn_area">
-                    <button type="button" id="btnJoin">
+                    <button class="trigger">
                         <span>가입하기</span>
                     </button>
                 </div>
+
 
                 
 
@@ -151,6 +152,12 @@
 
         </div> 
         <!-- wrapper -->
+        <div class="modal"> 
+            <div class="modal-content"> 
+                <span class="close-button">&times;</span> 
+                <h1 style="text-align: center;">회원가입을 축하합니다!</h1>
+            </div> 
+        </div>
     <script src="signup.js"></script>
     </body>
 </html>
