@@ -2,8 +2,13 @@ body{
     margin: 0;
     height: 2000px;
     width: 1920px;
-    overflow: hidden;
 }
+
+/* 스크롤바 안 보이게 */
+::-webkit-scrollbar {
+    display: none;
+}
+
 h1{
     text-align: center;
     color: white;
@@ -144,14 +149,6 @@ ul{
     width: 100%;
 }
 
-.navbar_service{
-    width: 1920px;
-    height: 20px;
-    font-size: 17px;
-    display: flex;
-    align-items: center;
-    margin: 106px 660px;
-}
 nav{
     flex:0;
 }

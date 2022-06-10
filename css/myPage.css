@@ -1,6 +1,10 @@
 body {
     margin: 0;
-    overflow: hidden;
+}
+
+/* 스크롤바 안 보이게 */
+::-webkit-scrollbar {
+    display: none;
 }
 
 /* 로고 */
@@ -17,16 +21,7 @@ h1 {
     font-size: 17spx;
     display: flex;
     align-items: center;
-    margin: 25px 660px;
-}
-
-.navbar_service {
-    width: 1920px;
-    height: 20px;
-    font-size: 17px;
-    display: flex;
-    align-items: center;
-    margin: 106px 660px;
+    margin: 25px 590px;
 }
 
 nav {
@@ -134,4 +129,19 @@ legend {
 
 input {
     margin-left: 20px;
+}
+
+#saveButton {
+    margin: 100px 0 50px 230px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #2f52aa;
+    border: none;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+
+#saveButton:hover {
+    cursor: pointer;
 }

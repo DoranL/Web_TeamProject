@@ -1,6 +1,12 @@
 body {
     margin: 0;
     overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* 스크롤바 안 보이게 */
+::-webkit-scrollbar {
+    display: none;
 }
 
 /* 로고 */
