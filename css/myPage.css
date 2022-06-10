@@ -4,7 +4,6 @@ body {
 
 /* 로고 */
 h1 {
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
     text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
