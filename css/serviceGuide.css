@@ -97,7 +97,29 @@ ul{
     font-size: 17spx;
     display: flex;
     align-items: center;
-    margin: 0px 660px;
+    margin: 0px 590px;
+}
+
+.navbar a{
+    position: relative;
+    padding: 17px 12px;
+}
+
+
+.navbar li a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background: #2c368f;
+    transition: all .5s ease-out;
+}
+
+.navbar li a:hover::after{
+    width: 100%;
 }
 
 .navbar a{
