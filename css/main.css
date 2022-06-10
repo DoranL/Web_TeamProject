@@ -155,12 +155,10 @@ a:active{
     border-color: #fff;
     background: none;
     border-radius: 2px;
-}
-
-button {
     width: 100px;
     height: 60px;
 }
+
 /* .slider{
     position:absolute;
     right: 200px;top: 230px;
