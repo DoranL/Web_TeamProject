@@ -46,12 +46,12 @@
             min = parseInt(time/60);
             sec = time%60;
 
-            document.getElementById("demo").innerHTML = min + ":" + sec;
+            document.getElementById("demo").innerHTML ="0" + min + ":" + sec;
             time--;
 
             if(time < 0 ) {
                 clearInterval(x);
-                document.getElementById("demo").innerHTML =  "코드 초기화";
+                document.getElementById("demo").innerHTML = "코드초기화"
             }
         }, 1000);
     </script>
