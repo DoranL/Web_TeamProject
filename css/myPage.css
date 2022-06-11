@@ -151,3 +151,8 @@ input {
 #saveButton:hover {
     cursor: pointer;
 }
+
+footer {
+    background-color: #a4adfec2;
+    height: 80px;
+}
