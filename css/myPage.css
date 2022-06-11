@@ -2,9 +2,13 @@ body {
     margin: 0;
 }
 
+/* 스크롤바 안 보이게 */
+::-webkit-scrollbar {
+    display: none;
+}
+
 /* 로고 */
 h1 {
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
     text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
@@ -17,16 +21,7 @@ h1 {
     font-size: 17spx;
     display: flex;
     align-items: center;
-    margin: 25px 660px;
-}
-
-.navbar_service {
-    width: 1920px;
-    height: 20px;
-    font-size: 17px;
-    display: flex;
-    align-items: center;
-    margin: 106px 660px;
+    margin: 25px 590px;
 }
 
 nav {
@@ -58,9 +53,37 @@ a:active {
 
 ul {
     list-style: none;
+    padding: 0px;
+}
+
+.navbar a {
+    position: relative;
+    padding: 17px 12px;
 }
 
 
+.navbar li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background: #2c368f;
+    transition: all .5s ease-out;
+}
+
+.navbar li a:hover::after {
+    width: 100%;
+}
+
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.2);
+}
 
 aside ul {
     float: left;
@@ -91,7 +114,7 @@ iframe {
 
 fieldset {
     width: 675px;
-    margin: 60px 80px 0 0;
+    margin: 60px 110px 0 0;
     float: right;
     border-color: steelblue;
 }
@@ -112,4 +135,24 @@ legend {
 
 input {
     margin-left: 20px;
+}
+
+#saveButton {
+    margin: 100px 0 50px 230px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #2f52aa;
+    border: none;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+
+#saveButton:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #a4adfec2;
+    height: 80px;
 }

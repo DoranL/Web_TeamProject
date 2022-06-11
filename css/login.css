@@ -1,15 +1,13 @@
 header {
-    margin : 15px auto 40px;
+    margin : 30px auto 40px;
 }
 
 .logo {
     height: 18px;
-    text-align: center;
     font-size: 30px;
     text-decoration: none;
     color: #292930;
     font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: -3px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
