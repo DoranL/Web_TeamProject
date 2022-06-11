@@ -19,6 +19,8 @@
             <div style="text-align:center;">
                 <img src="img/qrcode.png">
             </div>
+            <div class="empty"></div>
+            <div id="demo"></div>
             <div class="empty2"></div>
             <p class="text_area">로그인하시려면 MetaCare앱을 열고<br>코드를 스캔해주세요</p>
             <p style="text-align: center; color:rgba(141, 138, 138, 0.616)">프로필 > 내 코드 > 스캔하기</p>
@@ -35,4 +37,22 @@
             <p style="text-align:center">MetaCare가 처음이신가요? <a href="download.html" style="color: black;" target="_blank">앱 다운로드</a></p>
         </main>
     </body>
+    <script>
+        var time = 60;
+        var min = " ";
+        var sec = " ";
+
+        var x = setInterval(function() {
+            min = parseInt(time/60);
+            sec = time%60;
+
+            document.getElementById("demo").innerHTML = min + ":" + sec;
+            time--;
+
+            if(time < 0 ) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML =  "코드 초기화";
+            }
+        }, 1000);
+    </script>
 </html>
