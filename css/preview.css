@@ -225,3 +225,7 @@ a:link {
 a:active {
     color: rgb(0, 0, 0);
 }
+
+form div {
+    margin-top: 20px;
+}
