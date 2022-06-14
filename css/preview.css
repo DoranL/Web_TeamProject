@@ -229,3 +229,7 @@ a:active {
 form div {
     margin-top: 15px;
 }
+
+footer {
+    background: #f1f2ff;
+}
