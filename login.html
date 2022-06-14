@@ -4,6 +4,12 @@
         <meta charset="UTF-8">
         <title>MetaCare | 로그인</title>
         <link rel="stylesheet" href="css/login.css">
+        <script>
+            function goToMain() {
+                alert('fdsaf');
+                    location.replace('MyPage.html');
+                };
+        </script>
     </head>
     <body>
         <header>
@@ -16,7 +22,7 @@
                 <li><a href="QRlogin.html">QR 코드</a></li>
                 <li id="logborder"><a href="login.html" id="login">전화번호・이메일</a></li>
             </ul>
-            <form action="">
+            <form action="Main2.html">
                 <div class="input-box1">
                     <input id="username" type="text" name="username" placeholder="이메일 또는 전화번호" autocomplete="off" required="required">
                 </div>
